@@ -1,0 +1,5 @@
+# requirements.txt
+ngrok==1.4.0
+uvicorn==0.29.0
+fastapi==0.111.0
+loguru==0.7.2

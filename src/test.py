@@ -1,0 +1,3 @@
+obj = {'object': 'whatsapp_business_account', 'entry': [{'id': '782892524454416', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15556290849', 'phone_number_id': '850018384852789'}, 'contacts': [{'profile': {'name': 'Kush Bang'}, 'wa_id': '918160376548'}], 'messages': [{'from': '918160376548', 'id': 'wamid.HBgMOTE4MTYwMzc2NTQ4FQIAEhgWM0VCMDI0RDhFMzFBQUU2QThCNzM4NQA=', 'timestamp': '1759488635', 'text': {'body': 'ads'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
+
+print(obj["entry"][0]["changes"][0]["value"]["messages"][0]["text"]["body"])
